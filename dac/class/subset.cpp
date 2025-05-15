@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int A[] = {6,7,8};
+int A[] = {6,7,8,9,10};
 
 void print_sol(int x[],int n){
     for(int i = 1;i<=n;i++){
@@ -29,7 +29,7 @@ void subset1(int x[],int l,int r){
 
 
 int main(){
-    int n = 3;
+    int n = 5;
     int x[n+1];
     subset1(x,0,n);
     return 0;
